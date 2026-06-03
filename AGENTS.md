@@ -362,6 +362,28 @@ AI 应优先帮助完成：
 - 更新时间线
 - 提供修改建议
 
+新增内容时，应优先参考 `templates/` 目录下已有模板：
+
+- `templates/guild-event-template.md`
+- `templates/personal-event-template.md`
+- `templates/member-template.md`
+- `templates/quote-template.md`
+
+模板用于统一记录结构，但不要求完整填写。
+
+若用户提供的信息不足以填写模板中的某些项目，AI 可以在新增记录时删减空字段、空表格或不适用章节。
+
+禁止为了补全模板而虚构信息。
+
+无法确认的信息必须标记为：
+
+```txt
+待确认
+信息不足
+需要人工补充
+来源缺失
+```
+
 而不是主动改写历史内容。
 
 ------
